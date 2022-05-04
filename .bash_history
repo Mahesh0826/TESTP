@@ -406,3 +406,27 @@ vi hello.sh
 ./hello.sh 
 ll
 vi hello.sh 
+yum install git
+git --version
+ll
+git add .
+git init .
+git add .
+ll
+git status
+git commit -m "first commit" .
+git status
+git log
+git remote add orgin https://github.com/Mahesh0826/TESTP.git
+git branch
+git push -u orgin master
+ll
+git status
+git push -u orgin master
+git remote add origin https://github.com/Mahesh0826/TespNov.git
+git push -u orgin master
+git fetch orgin master
+git push -u orgin master
+git merge orgin master
+git push orgin master
+git push -f origin master
